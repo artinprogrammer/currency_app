@@ -53,18 +53,8 @@ class Search extends State<searchState> {
               last_updated: jsonList[i]["lastUpdated"]));
         });
       }
-      // mainList = jsonList;
     }
-    // print(mainList[0].current_price);
   }
-
-  // void _getSearchedList(String query) {
-  //   searchedList = mainList.where((obj) {
-  //     var name = obj.name?.toLowerCase();
-  //     return name!.contains(query);
-  //   }).toList();
-  // }
-
   @override
   void initState() {
     searchedList = mainList;
